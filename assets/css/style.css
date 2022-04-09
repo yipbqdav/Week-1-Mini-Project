@@ -1,4 +1,33 @@
-h1 {
-    padding: 40px;
+* {
+    box-sizing: border-box;
+}
+header {
+    padding: 10px;
+    text-align: center;
+    background: #8d10f5;
+    color: #fff;
+    font-size: 40px;
+}
+.tabs {
+    display: flex;
+    flex: 2;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 50px;
+    text-align: center;
+    font-style: oblique;
+}
+body {
+    background: #33393f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside{
+    background: #17E6DB;
+}
+nav{
+    padding: 14px 40px;
     text-align: center;
 }
+
